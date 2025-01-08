@@ -6,3 +6,14 @@
 //
 
 import Foundation
+
+class BeerService {
+    func fetchBeers(completion: @escaping ([Beer]) -> Void) {
+        // Mock API Call
+        let beers = [
+            Beer(id: 1, name: "Punk IPA", firstBrewed: "2007"),
+            Beer(id: 2, name: "Elvis Juice", firstBrewed: "2015")
+        ]
+        completion(beers)
+    }
+}

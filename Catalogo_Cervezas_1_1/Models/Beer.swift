@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+struct Beer {
+    let id: Int
+    let name: String
+    let firstBrewed: String
+}
+

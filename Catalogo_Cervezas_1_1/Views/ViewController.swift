@@ -28,7 +28,9 @@ class ViewController: UIViewController {
         view.backgroundColor = .orange
         
         view.addSubview(mainView)
-        presenter = MainPresenter(view: self)
+        
+        let router = MainRouter(viewController: self)
+        presenter = MainPresenter(view: self, router: router)
         setupTableView()
         presenter?.fetchBeers()
     }

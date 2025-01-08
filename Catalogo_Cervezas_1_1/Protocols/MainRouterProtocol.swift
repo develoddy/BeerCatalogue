@@ -6,3 +6,6 @@
 //
 
 import Foundation
+protocol MainRouterProtocol: AnyObject {
+    func navigateToBeerDetails(with beer: Beer)
+}

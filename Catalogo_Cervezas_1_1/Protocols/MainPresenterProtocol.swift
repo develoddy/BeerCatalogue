@@ -6,3 +6,7 @@
 //
 
 import Foundation
+protocol MainPresenterProtocol: AnyObject {
+    func fetchBeers()
+    func didSelectBeer(_ beer: Beer)
+}
