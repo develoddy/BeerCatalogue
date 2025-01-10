@@ -17,6 +17,7 @@
 		B360231D2D2EEDAC0060A6CE /* MainViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B360231C2D2EEDAC0060A6CE /* MainViewProtocol.swift */; };
 		B360231F2D2EEDCA0060A6CE /* MainRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B360231E2D2EEDCA0060A6CE /* MainRouterProtocol.swift */; };
 		B36023212D2EEDD60060A6CE /* MainPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36023202D2EEDD60060A6CE /* MainPresenterProtocol.swift */; };
+		B36023252D2EFA060060A6CE /* BeerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36023242D2EFA060060A6CE /* BeerTableViewCell.swift */; };
 		B3AF41222D0C370600D4B18B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AF41212D0C370600D4B18B /* AppDelegate.swift */; };
 		B3AF41242D0C370600D4B18B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AF41232D0C370600D4B18B /* SceneDelegate.swift */; };
 		B3AF41262D0C370600D4B18B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AF41252D0C370600D4B18B /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 		B360231C2D2EEDAC0060A6CE /* MainViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewProtocol.swift; sourceTree = "<group>"; };
 		B360231E2D2EEDCA0060A6CE /* MainRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouterProtocol.swift; sourceTree = "<group>"; };
 		B36023202D2EEDD60060A6CE /* MainPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenterProtocol.swift; sourceTree = "<group>"; };
+		B36023242D2EFA060060A6CE /* BeerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerTableViewCell.swift; sourceTree = "<group>"; };
 		B3AF411E2D0C370600D4B18B /* Catalogo_Cervezas_1_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Catalogo_Cervezas_1_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3AF41212D0C370600D4B18B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3AF41232D0C370600D4B18B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				B3AF41252D0C370600D4B18B /* ViewController.swift */,
 				B36023182D2EEBFF0060A6CE /* BeerDetailsViewController.swift */,
 				B360231A2D2EED3C0060A6CE /* UIViewComponents */,
+				B36023232D2EF9D50060A6CE /* Cells */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -134,6 +137,14 @@
 				B3AF412F2D0C370900D4B18B /* LaunchScreen.storyboard */,
 			);
 			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		B36023232D2EF9D50060A6CE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B36023242D2EFA060060A6CE /* BeerTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		B3AF41152D0C370600D4B18B = {
@@ -243,6 +254,7 @@
 				B360231F2D2EEDCA0060A6CE /* MainRouterProtocol.swift in Sources */,
 				B36023102D2DD92D0060A6CE /* MainView.swift in Sources */,
 				B36023212D2EEDD60060A6CE /* MainPresenterProtocol.swift in Sources */,
+				B36023252D2EFA060060A6CE /* BeerTableViewCell.swift in Sources */,
 				B36023142D2DDA2F0060A6CE /* BeerService.swift in Sources */,
 				B360231D2D2EEDAC0060A6CE /* MainViewProtocol.swift in Sources */,
 				B3AF41222D0C370600D4B18B /* AppDelegate.swift in Sources */,

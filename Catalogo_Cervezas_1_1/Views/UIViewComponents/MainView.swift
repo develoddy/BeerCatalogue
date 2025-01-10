@@ -23,7 +23,6 @@ class MainView: UIView {
 
     // MARK: - Setup View
     private func setupView() {
-        backgroundColor = .systemRed
         
         // Agregar la tabla como subvista
         addSubview(tableView)
